@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FAFAFA;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 16px;
+}
+
+.wrap{
+    margin:auto;
+    max-width: 800px;
+    width: 90%;
+}
+
+.principal{
+    background: #F44336;
+    border-top:20px solid #D32F2F;
+    color: #ffffff;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.principal .formulario{
+    color: #212121;
+    text-align: center;
+}
+
+.principal .formulario input[type=text]{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.principal .formulario input[type=text].error{
+    border: 5px solid #a11313;
+    color: red;
+}
+
+.principal .formulario .boton{
+    background: none;
+    border: 1px solid #d32f2f;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px;
+}
+
+.principal .formulario .boton:hover {
+    border: 1px solid #ffffff;
+}
+
+/* ---- TAREA ---*/
+.tarea .lista{
+    list-style: none;
+}
+.tarea .lista li{
+    border-bottom: 1px solid #B6B6B6;
+}
+
+.tarea .lista li a{
+    color:#212121;
+    display: block; /*PARA AGREGARLE UN PADDING*/
+    padding: 20px 0;
+    text-decoration: none;;
+}
+
+.tarea .lista li a:hover{
+    text-decoration: line-through;
+}
